@@ -22,7 +22,7 @@ services:
     cap_drop: [all] # Drop all Linux capabilities (optional but recommended)
     security_opt: [no-new-privileges:true] # Another protection to restrict superuser privileges (optional but recommended)
     environment:
-      - CLOUDFLARE_API_TOKEN=-neVtX8NPqSuPuOjZ0Um6A2SnQsBnjF0had8WsAn
+      - CLOUDFLARE_API_TOKEN=<API_TOKEN>
       - DOMAINS=halfbloodcats.com,portainer.halfbloodcats.com,heimdall.halfbloodcats.com
       - PROXIED=true
       - IP6_PROVIDER=none
